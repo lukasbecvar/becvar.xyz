@@ -73,8 +73,6 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: release-archive
-
-      # Idempotent: on a re-run the release already exists, so just replace the archive.
       - name: Create or update release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
