@@ -86,13 +86,4 @@ export const CS = {
     'footer.source': 'Zdrojový kód',
 };
 
-export const TYPED_WORDS_CS = [
-    'Backend developer',
-    'Server admin',
-    'Senior architekt',
-    'DevOps inženýr',
-    'specialista na AI automatizaci',
-    'Symfony vývojář',
-    'Linux nadšenec',
-    'CI/CD nadšenec'
-];
+export const TYPED_WORDS_CS = ['Backend developer', 'Server admin', 'Senior architekt', 'DevOps inženýr', 'specialista na AI automatizaci', 'Symfony vývojář', 'Linux nadšenec', 'CI/CD nadšenec'];

@@ -54,12 +54,7 @@ function bootstrapIcons() {
                 return `.bi-${name}{--bi:url("${uri}")}`;
             });
 
-            return [
-                '.bi::before{content:"";display:inline-block;width:1em;height:1em;vertical-align:-.125em;',
-                'background-color:currentColor;-webkit-mask:var(--bi) center/contain no-repeat;',
-                'mask:var(--bi) center/contain no-repeat}',
-                ...rules,
-            ].join('\n');
+            return ['.bi::before{content:"";display:inline-block;width:1em;height:1em;vertical-align:-.125em;', 'background-color:currentColor;-webkit-mask:var(--bi) center/contain no-repeat;', 'mask:var(--bi) center/contain no-repeat}', ...rules].join('\n');
         },
     };
 }
