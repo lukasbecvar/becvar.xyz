@@ -1,0 +1,38 @@
+{
+    "name": "becvar.xyz",
+    "version": "2.0.0",
+    "private": true,
+    "description": "Personal portfolio website of Lukáš Bečvář – built with Vite into a fully static, self-hosted site.",
+    "author": "Lukáš Bečvář <lukas@becvar.xyz>",
+    "homepage": "https://becvar.xyz",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lukasbecvar/becvar.xyz.git"
+    },
+    "type": "module",
+    "engines": {
+        "node": ">=20.19"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "lint": "eslint . && prettier --check .",
+        "lint:fix": "eslint . --fix && prettier --write .",
+        "format": "prettier --write .",
+        "check": "npm run lint && npm run build"
+    },
+    "dependencies": {
+        "@fontsource/jetbrains-mono": "5.3.0",
+        "@fontsource/manrope": "5.3.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "10.0.1",
+        "bootstrap-icons": "1.13.2",
+        "eslint": "10.13.0",
+        "globals": "17.0.0",
+        "prettier": "3.9.10",
+        "vite": "8.3.5"
+    }
+}

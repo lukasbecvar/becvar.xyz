@@ -1,0 +1,10 @@
+{
+    "name": "Lukáš Bečvář",
+    "short_name": "Bečvář",
+    "description": "Backend developer – PHP, Symfony, DevOps & AI automation.",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#0b0b0c",
+    "theme_color": "#0b0b0c",
+    "icons": [{ "src": "/favicon.png", "sizes": "300x300", "type": "image/png" }]
+}
