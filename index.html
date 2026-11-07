@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lukáš Bečvář · Backend developer</title>
+    <meta name="description" content="Lukáš Bečvář – backend developer se zaměřením na REST API v PHP a Symfony, správu Linuxu a DevOps.">
+    <meta name="theme-color" content="#0b0b0c">
+    <meta property="og:title" content="Lukáš Bečvář · Backend developer">
+    <meta property="og:description" content="Backend developer se zaměřením na REST API v PHP a Symfony, Linux a DevOps.">
+    <meta property="og:image" content="assets/og-image.jpeg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="cs_CZ">
+    <link rel="icon" href="assets/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="assets/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="#top" class="logo" aria-label="Na začátek">
+            <img src="assets/favicon.png" alt="" width="32" height="32">
+            <span>Lukáš Bečvář</span>
+        </a>
+        <nav class="nav" id="nav" aria-label="Hlavní navigace">
+            <a href="#o-mne">O mně</a>
+            <a href="#co-delam">Co dělám</a>
+            <a href="#dovednosti">Dovednosti</a>
+            <a href="#projekty">Projekty</a>
+            <a href="#kontakt" class="nav-cta">Kontakt</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+            <i class="bi bi-list"></i>
+        </button>
+    </div>
+</header>
+
+<main id="top">
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-bg" id="hero-bg" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1 id="hero-name">Lukáš Bečvář</h1>
+                <p class="hero-typed">
+                    Jsem <span class="typed" id="typed" data-words="Backend developer|Server admin|Senior architect|DevOps engineer|Symfony vývojář|Linux nadšenec|API builder|Kubernetes kutil">Backend developer</span><span class="caret" aria-hidden="true"></span>
+                </p>
+                <p class="hero-lead">
+                    Stavím backendy a REST API v PHP a Symfony. Záleží mi na bezpečnosti,
+                    čitelnosti a jednoduchosti kódu – a na tom, aby aplikace spolehlivě běžela
+                    i na serveru.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projekty" class="btn btn-primary">Moje projekty <i class="bi bi-arrow-right"></i></a>
+                    <a href="#kontakt" class="btn btn-ghost">Napište mi</a>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/lukasbecvar" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/becvar-lukas" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://t.me/lukasbecvar" target="_blank" rel="noopener" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+                    <a href="https://twitter.com/lukasbecvar" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.instagram.com/lukasbecvar99" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="terminal-wrap">
+            <div class="terminal" id="terminal-box" aria-label="Ukázka terminálu">
+                <div class="terminal-bar">
+                    <span></span><span></span><span></span>
+                    <p>lukas@becvar: ~</p>
+                </div>
+                <pre class="terminal-body" id="terminal"><code><span class="t-line"><span class="t-prompt">$</span> whoami</span>
+<span class="t-out">lukas – backend developer &amp; sysadmin</span>
+<span class="t-line"><span class="t-prompt">$</span> cat stack.txt</span>
+<span class="t-out"><span class="t-key">lang</span>    php, javascript, java, python</span>
+<span class="t-out"><span class="t-key">web</span>     symfony, doctrine, react</span>
+<span class="t-out"><span class="t-key">infra</span>   linux, docker, kubernetes</span>
+<span class="t-line"><span class="t-prompt">$</span> ls ~/projects | wc -l</span>
+<span class="t-out">28</span>
+<span class="t-line"><span class="t-prompt">$</span> <span class="t-cursor"></span></span></code></pre>
+            </div>
+            </div>
+        </div>
+        <a href="#o-mne" class="scroll-hint" aria-label="Posunout dolů"><i class="bi bi-chevron-down"></i></a>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats container" aria-label="Čísla">
+        <div class="stat reveal">
+            <strong><span data-count="" id="years">14</span>+</strong>
+            <span>let programování</span>
+        </div>
+        <div class="stat reveal">
+            <strong><span data-count="28">28</span></strong>
+            <span>open-source repozitářů</span>
+        </div>
+        <div class="stat reveal">
+            <strong><span data-count="18">18</span></strong>
+            <span>spokojených klientů</span>
+        </div>
+        <div class="stat reveal">
+            <strong><span data-count="5">5</span></strong>
+            <span>programovacích jazyků</span>
+        </div>
+    </section>
+
+    <!-- TECH MARQUEE -->
+    <div class="marquee" aria-label="Technologie, se kterými pracuji">
+        <div class="marquee-track">
+            <ul><li>PHP</li><li>Symfony</li><li>Doctrine</li><li>MySQL</li><li>Linux</li><li>Bash</li><li>Docker</li><li>Kubernetes</li><li>GitHub Actions</li><li>PHPUnit</li><li>PHPStan</li><li>React</li><li>JavaScript</li><li>Java</li><li>Python</li><li>Raspberry Pi</li><li>Git</li><li>REST API</li></ul>
+            <ul aria-hidden="true"><li>PHP</li><li>Symfony</li><li>Doctrine</li><li>MySQL</li><li>Linux</li><li>Bash</li><li>Docker</li><li>Kubernetes</li><li>GitHub Actions</li><li>PHPUnit</li><li>PHPStan</li><li>React</li><li>JavaScript</li><li>Java</li><li>Python</li><li>Raspberry Pi</li><li>Git</li><li>REST API</li></ul>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="o-mne">
+        <div class="container about">
+            <div class="section-head reveal">
+                <span class="eyebrow">O mně</span>
+                <h2>Od Pascalu k&nbsp;Kubernetes clusteru v&nbsp;obýváku.</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        Jmenuji se Lukáš a informatice se věnuji od dětství. Programovat jsem začal
+                        v roce 2012 – mými prvními jazyky byly Pascal a C++, ale dlouho jsem u nich
+                        nezůstal.
+                    </p>
+                    <p>
+                        Dnes se zabývám vývojem backendu aplikací všeho druhu, hlavně REST API.
+                        Pracuji primárně v <strong>PHP</strong> a nejraději používám framework
+                        <strong>Symfony</strong>. Mám zkušenosti i s frontendem, kde využívám React,
+                        a jsem aktivním uživatelem a správcem Linuxu.
+                    </p>
+                    <p>
+                        V poslední době se intenzivně věnuji DevOps – kontejnerizaci a nasazování
+                        aplikací. Spravuji vlastní <strong>Raspberry Pi cluster</strong>, na kterém
+                        provozuji Kubernetes pro své side projekty.
+                    </p>
+                </div>
+                <aside class="about-card reveal">
+                    <img src="assets/favicon.png" alt="" class="about-mark" width="56" height="56">
+                    <dl>
+                        <div><dt>Role</dt><dd>Backend developer</dd></div>
+                        <div><dt>Věk</dt><dd><span id="age">27</span> let</dd></div>
+                        <div><dt>Národnost</dt><dd>Česká</dd></div>
+                        <div><dt>Programuji od</dt><dd>2012</dd></div>
+                        <div><dt>E-mail</dt><dd><a href="mailto:lukas@becvar.xyz">lukas@becvar.xyz</a></dd></div>
+                    </dl>
+                    <a href="https://github.com/lukasbecvar" target="_blank" rel="noopener" class="btn btn-ghost btn-block"><i class="bi bi-github"></i> github.com/lukasbecvar</a>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="co-delam">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="eyebrow">Co dělám</span>
+                <h2>Od návrhu API až po nasazení na server.</h2>
+            </div>
+            <div class="cards">
+                <article class="card reveal">
+                    <div class="card-icon"><i class="bi bi-braces"></i></div>
+                    <h3>Backend &amp; REST API</h3>
+                    <p>Návrh a vývoj API a webových aplikací v Symfony. Čistá architektura, validace, testy a statická analýza.</p>
+                    <ul class="tags"><li>PHP</li><li>Symfony</li><li>Doctrine</li><li>PHPUnit</li></ul>
+                </article>
+                <article class="card reveal">
+                    <div class="card-icon"><i class="bi bi-terminal"></i></div>
+                    <h3>Linux &amp; servery</h3>
+                    <p>Správa a monitoring linuxových serverů, automatizace pomocí skriptů a důraz na bezpečnost.</p>
+                    <ul class="tags"><li>Linux</li><li>Bash</li><li>MySQL</li><li>Monitoring</li></ul>
+                </article>
+                <article class="card reveal">
+                    <div class="card-icon"><i class="bi bi-boxes"></i></div>
+                    <h3>DevOps &amp; kontejnery</h3>
+                    <p>Kontejnerizace aplikací, CI/CD pipeline a provoz v Kubernetes – včetně vlastního homelabu.</p>
+                    <ul class="tags"><li>Docker</li><li>Kubernetes</li><li>GitHub Actions</li><li>Raspberry Pi</li></ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="dovednosti">
+        <div class="container skills-wrap">
+            <div class="section-head reveal">
+                <span class="eyebrow">Dovednosti</span>
+                <h2>S čím pracuji nejčastěji.</h2>
+                <p class="section-sub">Sebehodnocení – čím delší pruh, tím víc času jsem s technologií strávil.</p>
+            </div>
+            <div class="skills reveal" id="skills">
+                <div class="skill"><div class="skill-head"><span>PHP / Symfony</span><span>85 %</span></div><div class="bar"><i style="--w:85%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>HTML / CSS</span><span>80 %</span></div><div class="bar"><i style="--w:80%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>Linux</span><span>75 %</span></div><div class="bar"><i style="--w:75%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>SQL</span><span>65 %</span></div><div class="bar"><i style="--w:65%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>JavaScript / React</span><span>60 %</span></div><div class="bar"><i style="--w:60%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>Java</span><span>50 %</span></div><div class="bar"><i style="--w:50%"></i></div></div>
+                <div class="skill"><div class="skill-head"><span>Python</span><span>40 %</span></div><div class="bar"><i style="--w:40%"></i></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-alt" id="projekty">
+        <div class="container">
+            <div class="section-head section-head-row reveal">
+                <div>
+                    <span class="eyebrow">Projekty</span>
+                    <h2>Co jsem postavil.</h2>
+                </div>
+                <div class="filters" role="tablist" aria-label="Filtr projektů">
+                    <button class="filter is-active" data-filter="open" role="tab" aria-selected="true">Aktivní <span id="count-open"></span></button>
+                    <button class="filter" data-filter="all" role="tab" aria-selected="false">Vše <span id="count-all"></span></button>
+                    <button class="filter" data-filter="closed" role="tab" aria-selected="false">Archiv <span id="count-closed"></span></button>
+                </div>
+            </div>
+            <div class="projects" id="projects"></div>
+            <noscript><p class="section-sub">Seznam projektů najdete na <a href="https://github.com/lukasbecvar">GitHubu</a>.</p></noscript>
+            <p class="projects-more reveal">
+                Všechny projekty najdete na <a href="https://github.com/lukasbecvar" target="_blank" rel="noopener">GitHubu <i class="bi bi-arrow-up-right"></i></a>
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="kontakt">
+        <div class="container">
+            <div class="contact reveal">
+                <div class="contact-bg" aria-hidden="true"></div>
+                <span class="eyebrow">Kontakt</span>
+                <h2>Máte projekt nebo nápad?<br>Ozvěte se.</h2>
+                <p>Nejrychleji mě zastihnete e-mailem. Odpovídám obvykle do druhého dne.</p>
+                <div class="contact-mail">
+                    <a href="mailto:lukas@becvar.xyz" class="btn btn-primary btn-lg"><i class="bi bi-envelope"></i> lukas@becvar.xyz</a>
+                    <button class="btn btn-ghost btn-lg" id="copy-mail" data-mail="lukas@becvar.xyz">
+                        <i class="bi bi-copy"></i> <span>Kopírovat</span>
+                    </button>
+                </div>
+                <div class="socials socials-center">
+                    <a href="https://github.com/lukasbecvar" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/becvar-lukas" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://t.me/lukasbecvar" target="_blank" rel="noopener" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+                    <a href="https://twitter.com/lukasbecvar" target="_blank" rel="noopener" aria-label="X / Twitter"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.instagram.com/lukasbecvar99" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <span>© <span id="year">2026</span> Lukáš Bečvář</span>
+    </div>
+</footer>
+
+<a href="#top" class="to-top" id="to-top" aria-label="Zpět nahoru"><i class="bi bi-arrow-up"></i></a>
+<script src="main.js" defer></script>
+</body>
+</html>
