@@ -1,5 +1,4 @@
-# Build the site on every push to main, publish the build as a .tar.gz
-# GitHub release and deploy it to GitHub Pages.
+# github release and deploy it to github pages
 name: Build, release & deploy
 
 on:
